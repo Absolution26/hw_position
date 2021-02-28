@@ -1,0 +1,117 @@
+@import url(nullstyle.css);
+
+.page{
+    background-color:#f6f6f6;
+}
+
+.container {
+    width:1200px;
+    margin:0 auto;
+    height:100%;
+}
+.wrap{
+    height:100%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.title {
+    color: #3c3c3c;
+    font-family: 'Lato', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-align:center;
+}
+.img{
+    width:100%;
+    margin:20px auto 40px auto;
+}
+.subtitle {
+    margin-bottom: 60px;
+    color: #3c3c3c;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align:center;
+    line-height:2;
+}
+
+.list {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.image {
+    height:100%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.item {
+    width: 269px;
+    height: 268px;
+    background-color:rgba(0, 174, 217, 0.9);
+}
+.item:hover {
+    -webkit-box-shadow:1px 1px 3px black;
+            box-shadow:1px 1px 3px black;
+}
+.item:hover .item__name{
+    font-size: 22px;
+    text-shadow:brown 1px 1px 3px;
+}
+.item:hover .item__position{
+    font-size: 18px;
+    text-shadow:greenyellow 1px 1px 3px;
+}
+
+.image__item {
+    margin:0 2px 0 2px;
+    width: 42px;
+    height: 42px;
+    background-color: rgba(255,255,255,0.3);
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.item__name {
+    margin:21px 0 5px 0;
+    color: #282528;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.item__position {
+    color: #646464;
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.item__image {
+    height:100%;
+}
+
